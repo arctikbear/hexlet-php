@@ -1,0 +1,13 @@
+{
+    "name": "arctikbear/hexlet-php",
+    "description": "hexlet-php test package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "arctikbear",
+            "email": "coder.arctik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
