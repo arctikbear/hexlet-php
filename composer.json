@@ -1,6 +1,6 @@
 {
-    "name": "arctikbear/hexlet-php",
-    "description": "hexlet-php test package",
+    "name": "alexey/hexlet-php",
+    "description": "test project",
     "type": "project",
     "authors": [
         {
@@ -9,5 +9,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "tightenco/collect": "dev-laravel-9-ongoing"
+    },
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    }
 }
